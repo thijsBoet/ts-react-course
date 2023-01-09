@@ -1,0 +1,27 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.modal-content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 100;
+}
